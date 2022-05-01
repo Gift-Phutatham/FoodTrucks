@@ -6,7 +6,7 @@ services:
     environment:
       - discovery.type=single-node
     volumes:
-      - ftesdata1:/usr/share/elasticsearch/data
+      - /Users/gift/Scalable_Systems/FoodTrucks/ftesdata1:/usr/share/elasticsearch/data
     networks:
       - foodtrucks-net
   foodtrucks-frontend:
