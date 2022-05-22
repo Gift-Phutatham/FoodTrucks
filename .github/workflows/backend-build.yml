@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  BASE_IMG_NAME: ktangwon/foodtrucks
+  BASE_IMG_NAME: ${{ github.repository }}
 jobs:
   build:
     runs-on: ubuntu-latest
